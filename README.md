@@ -31,7 +31,7 @@ It also has our controller inheriting from ActionController::API base instead of
 
 
 ## Let's Get Started
-- The first step of creating our rails app is going to be a _slightly_ different, but is very important! **MAKE SURE YOUR CREATE YOUR NEW RAILS APP WITH '--API'** It is going to save you a lot of time with getting started. Before Rails 5 there was a much more manual process that we do not have to do anymore thanks to that simple command! So, run the following command to generate a new API rails app:
+- The first step of creating our rails app is going to be a _slightly_ different, but is very important! **MAKE SURE YOU CREATE YOUR NEW RAILS APP WITH '--API'** It is going to save you a lot of time with getting started. Before Rails 5 there was a much more manual process that we do not have to do anymore thanks to that simple command! So, run the following command to generate a new API rails app:
   - `rails new . --api`
 - **Create a new model for songs**
   - `rails generate model song title:string artist:string year:integer`
